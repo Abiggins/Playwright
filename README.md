@@ -1,18 +1,19 @@
 # Playwright
 Reg.spec6
-✅1. Test Case - Automate User Registration process.
-        failed
-            bad password
-            dupe username
-        pass
+done✅1. Test Case - Automate User Registration process.
+done        failed
+done            bad password
+done            dupe username
+done        pass
 
-login.spec
-✅2. Test Case - Automate that user is able to login successfully.
-        pass
-        Failed
-            bad pass
-            bad user
-            no user
+
+done login.spec
+done ✅2. Test Case - Automate that user is able to login successfully.
+done         pass
+done         Failed
+done             bad pass
+done             bad user
+done             no user
 
 account.spec
 ✅3. Test Case - Automate that User is able to Open the Account successfully.
