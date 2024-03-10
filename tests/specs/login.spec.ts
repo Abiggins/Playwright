@@ -1,5 +1,5 @@
-import { test } from './pageobjects/fixtures/base.ts'
-import { ErrorPage } from './pageobjects/error.page.ts';
+import { test } from '../pageobjects/fixtures/base.ts'
+import { ErrorPage } from '../pageobjects/error.page.ts';
 import { expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {

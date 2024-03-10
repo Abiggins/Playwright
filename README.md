@@ -10,8 +10,8 @@ done        pass
 done login.spec
 done ✅2. Test Case - Automate that user is able to login successfully.
 done         pass
-done         Failed
-done             bad pass
+one         Failed
+done             bad pas
 done             bad user
 done             no user
 

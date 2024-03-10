@@ -1,17 +1,15 @@
-import { test } from './pageobjects/fixtures/base.ts'
-import RegisterPage from './pageobjects/register.page.ts';
+import { test } from '../pageobjects/fixtures/base.ts'
+import RegisterPage from '../pageobjects/register.page.ts';
 import { expect } from '@playwright/test';
 
-let registerPage
+let registerPage : RegisterPage;
 
 test.beforeEach(async ({ page }) => {
     registerPage = new RegisterPage(page);
     await page.goto('/');
-
 });
 
 test.describe('Register Functionality', () => {
-
     test('as a user, I can navigate to the registration page', async ({ loginSection, page }) => {
         await loginSection.registerButton.click();
         // verify the registration page is displayed
